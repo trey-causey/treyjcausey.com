@@ -110,17 +110,17 @@ for($i = 0; $i<7; $i++) {
         <section class="container">
             <div class="row">
                 <div class="col"></div>
-                <div class="col">Dew Point Temps By Day</div>
+                <div class="col">Dew Point Temps By Date</div>
                 <div class="col"></div>
             </div>
             <div class="row">
-                <div class="col">Sunday</div>
-                <div class="col">Monday</div>
-                <div class="col">Tuesday</div>
-                <div class="col">Wednesday</div>
-                <div class="col">Thursday</div>
-                <div class="col">Friday</div>
-                <div class="col">Saturday</div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-7 days')) ?> </div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-6 days')) ?></div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-5 days')) ?></div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-4 days')) ?></div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-3 days')) ?></div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-2 days')) ?></div>
+                <div class="col"><?php echo date('Y-m-d', strtotime('-1 days')) ?></div>
             </div>
 
             <div class="row">
