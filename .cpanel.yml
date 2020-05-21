@@ -1,10 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYHOMESPATH=/home/sitejsvh/treyjcausey.com/
-    - /bin/cp index.php $DEPLOYHOMESPATH
-    - /bin/cp index.html $DEPLOYHOMESPATH
-    //- /bin/cp composer.json $DEPLOYHOMESPATH
-    //- /bin/cp composer.lock $DEPLOYHOMESPATH
-    //- export DEPLOYVENDORSPATH=/home/sitejsvh/treyjcausey.com
-    //- /bin/cp -r /vendor $DEPLOYVENDORSPATH
+    - export DEPLOYPATH=/home/sitejsvh/treyjcausey.com/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
