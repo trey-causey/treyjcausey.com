@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYHOMESPATH=/home/sitejsvh/treyjcausey.com
+    - /bin/cp -r / $DEPLOYHOMESPATH
+    - export DEPLOYVENDORSPATH=/home/sitejsvh/treyjcausey.com
+    - /bin/cp -r /vendor $DEPLOYVENDORSPATH
